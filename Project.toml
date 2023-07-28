@@ -1,0 +1,16 @@
+name = "NeatPhysics"
+uuid = "8e42ec88-7e73-4567-a2f8-4bd4e9508da8"
+authors = ["Spirit <i8bou3@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+repo = "https://github.com/NeatRealm/NeatPhysics.jl"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[targets]
+test = ["Test"]
+docs = ["Documenter"]
